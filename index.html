@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mòduls</title>
+    <link rel="icon" href="icons/modul.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=chevron_backward">
+</head>
+<body>
+    <header>
+        <nav class="navegacion-menu">
+            <div id="boton-regresar" class="boton-regresar">
+                <button>
+                    <span class="material-symbols-outlined">chevron_backward</span>
+                </button>
+            </div>
+            <ul class="lista-menu">
+                <a href="#" class="enlace-menu" onclick="mostrarEnlace(this, 'lmsgi', 'LLENGUATGES DE MARQUES I SISTEMES DE GESTIÓ D`INFORMACIÓ')" data-nombre="LMSGI">
+                    <li>LMSGI</li>
+                </a>
+                <a href="#" class="enlace-menu" onclick="mostrarEnlace(this, 'ped', 'PROGRAMACIÓ + ENTORNS DE DESENVOLUPAMENT')" data-nombre="P+ED">
+                    <li>P+ED</li>
+                </a>
+                <a href="#" class="enlace-menu" onclick="mostrarEnlace(this, 'ipoi', 'ITINERARI PERSONAL PER A LA OCUPABILITAT I')" data-nombre="IPOI">
+                    <li>IPOI</li>
+                </a>
+                <a href="#" class="enlace-menu" onclick="mostrarEnlace(this, 'bd', 'BASES DE DADES')" data-nombre="BD">
+                    <li>BD</li>
+                </a>
+                <a href="#" class="enlace-menu" onclick="mostrarEnlace(this, 'tut', 'TUTORIA')" data-nombre="TUT">
+                    <li>TUT</li>
+                </a>
+                <a href="#" class="enlace-menu" onclick="mostrarEnlace(this, 'diw', 'DISSENY D`INTERFÍCIES WEB')" data-nombre="DIW">
+                    <li>DIW</li>
+                </a>
+                <a href="#" class="enlace-menu" onclick="mostrarEnlace(this, 'an', 'ANGLÈS PROFESSIONAL')" data-nombre="AN">
+                    <li>AN</li>
+                </a>
+                <a href="#" class="enlace-menu" onclick="mostrarEnlace(this, 'si', 'SISTEMES INFORMÀTICS')" data-nombre="SI">
+                    <li>SI</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor-principal">
+            <section id="lmsgi" class="seccion"></section>
+            <section id="ped" class="seccion"></section>
+            <section id="ipoi" class="seccion"></section>
+            <section id="bd" class="seccion"></section>
+            <section id="tut" class="seccion"></section>
+            <section id="diw" class="seccion"></section>
+            <section id="an" class="seccion"></section>
+            <section id="si" class="seccion"></section>
+        </div>
+    </main>
+    <footer>
+        <span>&copy; Tots els drets reservat - Jeiron Espinal</span>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
